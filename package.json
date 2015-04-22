@@ -25,6 +25,7 @@
     "node-inspector": "^0.7.4"
   },
   "scripts": {
+  	"postinstall": "node dbSeed.js",
     "start": "node app.js",
     "debug": "node-inspector --config ./inspector-config.json & node --debug app.js"
   },
