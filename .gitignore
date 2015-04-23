@@ -1,8 +1,11 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+database.sqlite
+
 # dependencies
 /node_modules
 
 # misc
 *.sublime-workspace
 *.sublime-project
+*.log

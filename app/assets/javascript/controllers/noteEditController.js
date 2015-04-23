@@ -5,9 +5,10 @@ angular.module('NoteWrangler').controller('NoteEditController',
 
 	$scope.saveNote = function(note){
 		$scope.isSubmitting = true;
-		note.$update().finally(function(){
-			$scope.isSubmitting = false;
+		note.$update().then(function(){
 			$location.path("/notes/" + note.id);
+		}).finally(function(){
+			$scope.isSubmitting = false;
 		});
 	}
 });

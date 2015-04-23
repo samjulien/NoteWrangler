@@ -16,9 +16,26 @@ module.exports = function(app) {
   
   app.post('/notes', function(req, res) {
     models.sequelize.sync().on('success', function() {
-      Note.create({UserId: req.user.id, CategoryId: req.param('CategoryId'), link: req.param('link'), title: req.param('title'), content: req.param('content'), description: req.param('description'), icon: req.param('icon')}).success(function(notes) {
+      Note.create({title: req.param('title'), content: req.param('content'), description: req.param('description')}).success(function(notes) {
         res.json(notes);
       })
+    });
+  });
+
+  app.delete('/notes/:id', function(req, res) {
+    var param;
+    var updateParams = {};
+    var noteId = parseInt(req.param('id'));
+
+    models.sequelize.sync().on('success', function() {
+      Note.find({where: {id: noteId}, attributes: noteSafeParams, include: [Category]})
+      .on('success', function(note){
+        note.destroy()
+          .on('success', function(){
+            res.json({});
+            return;
+          });
+      }); 
     });
   });
   
