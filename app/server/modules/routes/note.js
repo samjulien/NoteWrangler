@@ -22,7 +22,7 @@ module.exports = function(app) {
     });
   });
   
-  app.put('/notes', function(req, res) {
+  app.put('/notes/:id', function(req, res) {
     var param;
     var updateParams = {};
     var noteId = parseInt(req.param('id'));
@@ -31,11 +31,11 @@ module.exports = function(app) {
       Note.find({where: {id: noteId}, attributes: noteSafeParams, include: [Category]}).success(function(note) {
 
         // Return an 401 aunauthorized if a user tries to editor another user's note
-        if(!req.user || req.user.id !== note.values.UserId) {
-          res.status(401);
-          res.json({error: "You are not authorized to edit this note"});
-          return;
-        }
+        // if(!req.user || req.user.id !== note.values.UserId) {
+        //   res.status(401);
+        //   res.json({error: "You are not authorized to edit this note"});
+        //   return;
+        // }
         
         // Loop through the noteSafeParams and update their values from the given ones.
         for(var i=0, l = noteSafeParams.length; i < l; i++ ) {

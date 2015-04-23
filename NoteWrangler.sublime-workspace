@@ -65,14 +65,6 @@
 			}
 		},
 		{
-			"file": "npm-shrinkwrap.json",
-			"settings":
-			{
-				"buffer_size": 36909,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/server/modules/routes.js",
 			"settings":
 			{
@@ -97,6 +89,182 @@
 			}
 		},
 		{
+			"file": "app/server/modules/models/user.js",
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/server/modules/dataSeeds.js",
+			"settings":
+			{
+				"buffer_size": 8629,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/server/modules/routes/category.js",
+			"settings":
+			{
+				"buffer_size": 357,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/server/modules/routes/note.js",
+			"settings":
+			{
+				"buffer_size": 2460,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/server/modules/routes/session.js",
+			"settings":
+			{
+				"buffer_size": 3252,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/server/modules/routes/user.js",
+			"settings":
+			{
+				"buffer_size": 1555,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/server/views/index.html",
+			"settings":
+			{
+				"buffer_size": 1815,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/javascript/controllers/noteIndexController.js",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/javascript/controllers/noteEditController.js",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/javascript/controllers/noteCreateController.js",
+			"settings":
+			{
+				"buffer_size": 83,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/javascript/controllers/noteShowController.js",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/templates/notes/index.html",
+			"settings":
+			{
+				"buffer_size": 193,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 173,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/javascript/services/note.js",
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/templates/notes/show.html",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/templates/notes/edit.html",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/templates/notes/new.html",
+			"settings":
+			{
+				"buffer_size": 21,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/javascript/app.js",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/javascript/routes.js",
+			"settings":
+			{
+				"buffer_size": 579,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/server/views/session/sign_in.ejs",
+			"settings":
+			{
+				"buffer_size": 1268,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/server/views/session/sign_up.ejs",
+			"settings":
+			{
+				"buffer_size": 1498,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 535,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "app/server/modules/models.js",
 			"settings":
 			{
@@ -108,8 +276,16 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 828,
+				"buffer_size": 864,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dbSeed.js",
+			"settings":
+			{
+				"buffer_size": 300,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -204,13 +380,22 @@
 	[
 		"/C/Users/sjulien/Projects/NoteWrangler",
 		"/C/Users/sjulien/Projects/NoteWrangler/app",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/assets",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/assets/javascript",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/assets/javascript/controllers",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/assets/javascript/services",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/assets/styles",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/assets/templates",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/assets/templates/notes",
 		"/C/Users/sjulien/Projects/NoteWrangler/app/server",
 		"/C/Users/sjulien/Projects/NoteWrangler/app/server/modules",
-		"/C/Users/sjulien/Projects/NoteWrangler/app/server/modules/models",
-		"/C/Users/sjulien/Projects/NoteWrangler/app/server/views"
+		"/C/Users/sjulien/Projects/NoteWrangler/app/server/views",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/server/views/session"
 	],
 	"file_history":
 	[
+		"/C/Users/sjulien/Projects/NoteWrangler/app/server/modules/models/note.js",
+		"/C/Users/sjulien/Projects/NoteWrangler/app/server/modules/models/category.js",
 		"/C/Users/sjulien/Projects/NoteWrangler/app/server/modules/dataSeeds.js",
 		"/modules/routes.js",
 		"/server/modules/routes.js",
@@ -336,9 +521,7 @@
 		"/C/Users/sjulien/Projects/baconbots/sass/-partials/nav.scss",
 		"/C/Users/sjulien/Projects/baconbots/app/models/instagram-record.js",
 		"/C/Users/sjulien/Projects/baconbots/app/routes/application.js",
-		"/C/Users/sjulien/Projects/baconbots/app/json/settings.js",
-		"/C/Users/sjulien/Projects/baconbots/app/json/instagram.js",
-		"/C/Users/sjulien/Projects/baconbots/config.rb"
+		"/C/Users/sjulien/Projects/baconbots/app/json/settings.js"
 	],
 	"find":
 	{
@@ -356,6 +539,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Notes",
+			"div",
 			"description",
 			"genres",
 			"li",
@@ -433,7 +618,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 19,
 			"sheets":
 			[
 				{
@@ -462,7 +647,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -491,41 +676,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "npm-shrinkwrap.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 36909,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "app/server/modules/routes.js",
 					"semi_transient": false,
 					"settings":
@@ -550,11 +705,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "app/server/modules/expressConfig.js",
 					"semi_transient": false,
 					"settings":
@@ -581,11 +736,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "app/server/modules/encrypt.js",
 					"semi_transient": false,
 					"settings":
@@ -612,11 +767,664 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/server/modules/models/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
+					"file": "app/server/modules/dataSeeds.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4278.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/server/modules/routes/category.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/server/modules/routes/note.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								607,
+								607
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/server/modules/routes/session.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3252,
+								3252
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/server/modules/routes/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1555,
+								1555
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/server/views/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								895,
+								895
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/assets/javascript/controllers/noteIndexController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/assets/javascript/controllers/noteEditController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/assets/javascript/controllers/noteCreateController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/assets/javascript/controllers/noteShowController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/assets/templates/notes/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "app/assets/javascript/services/note.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/assets/templates/notes/show.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/assets/templates/notes/edit.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "app/assets/templates/notes/new.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "app/assets/javascript/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "app/assets/javascript/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								572,
+								572
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "app/server/views/session/sign_in.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1268,
+								1268
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "app/server/views/session/sign_up.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1498,
+								1498
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
 					"file": "app/server/modules/models.js",
 					"semi_transient": false,
 					"settings":
@@ -641,24 +1449,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 28,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 828,
+						"buffer_size": 864,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								647,
-								647
+								538,
+								538
 							]
 						],
 						"settings":
@@ -666,10 +1474,39 @@
 							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "dbSeed.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 18,
 					"type": "text"
 				}
 			]

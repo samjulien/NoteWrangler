@@ -1,8 +1,8 @@
 ##NoteWrangler
 
-Codeschool.com's Soup to Bits for Staying Sharp with Angular.
+[Codeschool.com's](http://www.codeschool.com) Soup to Bits for Staying Sharp with Angular.
 
-To do list for extending:
+To do list for extending the tooling:
 * Grunt with JSHint
 * Live reload
 * Minification
