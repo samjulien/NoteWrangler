@@ -6,6 +6,7 @@
 Notes:
 <ul>
 <li ng-repeat="note in user.notes"><a ng-href="#/notes/{{note.id}}">{{note.title}}</a></li>
+<li ng-show="user.notes.length === 0"><i>No notes for this user.</i></li>
 </ul>
 <hr/>
 <a href="#/users/" class="btn btn-default">Back to Users</a>
