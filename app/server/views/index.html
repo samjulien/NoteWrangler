@@ -17,6 +17,20 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                  <a href="/#/">NoteWrangler</a>
+                </div>
+            </div>
+            <nw-page-nav></nw-page-nav>
+            <!-- <ul class="nav navbar-nav">
+                <li><a href="#/notes">Notes</a></li>
+                <li><a href="#/users">Users</a></li>
+            </ul> -->
+        </div>
+    </nav>
     
     <div class="main-wrapper">
         <div ng-view class="container-fluid"></div>
@@ -40,5 +54,6 @@
     <script src="assets/javascript/controllers/usersIndexController.js"></script>
     <script src="assets/javascript/controllers/usersShowController.js"></script>
     <script src="assets/javascript/services/user.js"></script>
+    <script src="assets/javascript/directives/nwPageNav.js"></script>
   </body>
 </html>
