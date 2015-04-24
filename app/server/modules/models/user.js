@@ -12,6 +12,7 @@ module.exports = function(sequelize, DataTypes) {
     password: DataTypes.STRING,
     bio: DataTypes.STRING,
     twitter_handle: DataTypes.STRING,
-    site: DataTypes.STRING
+    site: DataTypes.STRING,
+    email: DataTypes.STRING
   });
 }

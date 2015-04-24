@@ -20,7 +20,8 @@ module.exports = {
       "name": "Jeffery Zeldman",
       "bio": "Founder, Happy Cog studios. Author, Designing With Web Standards. Publisher, A List Apart, A Book Apart.",
       "twitter_handle": "@zeldman",
-      "site": "zeldman.com"
+      "site": "zeldman.com",
+      "email": "jeffrey@zeldman.com"
     });
 
     User.findOrCreate({
@@ -28,7 +29,8 @@ module.exports = {
       "name": "Brad Green",
       "bio": "I work at Google where I manage AngularJS and Google's internal sales productivity applications. I'm a dad.",
       "twitter_handle": "@bradlygreen",
-      "site": "google.com/+BradGreen"
+      "site": "google.com/+BradGreen",
+      "email": "brad@bradly.com"
     });
 
     User.findOrCreate({
@@ -36,7 +38,8 @@ module.exports = {
       "name": "Eric A. Meyer",
       "bio": "Web standards | (X)HTML | CSS | microformats | community | writing | speaking | signing man.",
       "twitter_handle": "@meyerweb",
-      "site": "meyerweb.com"
+      "site": "meyerweb.com",
+      "email": ""
     });
 
     User.findOrCreate({
@@ -44,7 +47,8 @@ module.exports = {
       "name": "Gregg Pollack",
       "bio": "Founder of Envy Labs, Code School, Orlando Ruby Users Group, BarCamp Orlando, and the Orlando Tech Events newsletter.",
       "twitter_handle": "@greggpollack",
-      "site": "EnvyLabs.com"
+      "site": "EnvyLabs.com",
+      "email": "gregg@codeschool.com"
     });
 
     User.findOrCreate({
@@ -52,7 +56,8 @@ module.exports = {
       "name": "Rachel Higley",
       "bio": "A web developer located in central florida",
       "twitter_handle": "@RachelHigley",
-      "site": ""
+      "site": "",
+      "email": "me@rachelhigley.com"
     });
 
     User.findOrCreate({
@@ -60,14 +65,16 @@ module.exports = {
       "name": "Zachary Nicoll",
       "bio": "Bio sections always intimidate me. I can never think of anything to say that will achieve that awe inspiring effect I want it to have.",
       "twitter_handle": "@turtleguyy",
-      "site": "zacharynicoll.com"
+      "site": "zacharynicoll.com",
+      "email": "mail@zdn.me"
     });
 
     User.findOrCreate({
       "username": "renz",
       "name": "Adam Rensel","bio": "Web Developer at @envylabs and @codeschool",
       "twitter_handle": "@adamrensel",
-      "site": "adamrensel.com"}).success(function(user){
+      "site": "adamrensel.com",
+      "email": "adamrensel@codeschool.com"}).success(function(user){
 
     // Note Types
     Category.findOrCreate({"name": "Testing", "icon": "tumblr"});
@@ -155,7 +162,8 @@ module.exports = {
       "name": "Olivier Lacan",
       "bio": "Software bricoleur at @codeschool, word wrangler, scientific skeptic, and logic lumberjack.",
       "twitter_handle": "@olivierlacan",
-      "site": "olivierlacan.com"
+      "site": "olivierlacan.com",
+      "email": "olivier@codeschool.com"
     });
 
     User.findOrCreate({
@@ -172,7 +180,8 @@ module.exports = {
       "name": "Drew Barontini",
       "bio": "Front-end developer @codeschool, descendant of @envylabs, real-life extrovert, internet introvert.",
       "twitter_handle": "@drewbarontini",
-      "site": "drewbarontini.com"
+      "site": "drewbarontini.com",
+      "email": "drew@codeschool.com"
     });
 
     User.findOrCreate({
@@ -181,7 +190,8 @@ module.exports = {
      "name": "Jordan Wade",
      "bio": "Designer, Illustrator, and Front-End Developer @codeschool",
      "twitter_handle": "@jjordanwade",
-     "site": "jamesjordanwade.com"
+     "site": "jamesjordanwade.com",
+     "email": "jordan@codeschool.com"
     });
 
     User.findOrCreate({
@@ -190,7 +200,8 @@ module.exports = {
      "name": "Alyssa Nicoll",
      "bio": "Code School Teacher. Angular Lover. Scuba Diver.",
      "twitter_handle": "@AlyssaNicoll",
-     "site": "alyssa.io"
+     "site": "alyssa.io",
+     "email": "alyssa@codeschool.com"
     }).success(function(user){
 
       Category.findOrCreate({"name": "Code Snippet", "icon": "code"}).success(function(type){

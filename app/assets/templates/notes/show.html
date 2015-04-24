@@ -1,6 +1,6 @@
 <div class="page-header">
 	<h1>{{note.title}} <a href="#/notes/" class="btn btn-default">Back to Index</a></h1>
-	<small>{{note.user.name}}</small>
+	<small><a ng-href="#/users/{{note.user.id}}">{{note.user.name}}</a></small>
 </div>
 <p>{{note.content}}</p>
 <p><span class="label label-info">{{note.category.name}}</span></p>

@@ -1,5 +1,11 @@
 <div class="page-header">
-	<h1>{{user.name}} <a href="#/users/" class="btn btn-default">Back to Index</a></h1>
+	<h1><gravatar email="user.email"></gravatar>{{user.name}}</h1>
 </div>
 <a ng-href="{{user.site}}">{{user.site}}</a>
 <p>{{user.bio}}</p>
+Notes:
+<ul>
+<li ng-repeat="note in user.notes"><a ng-href="#/notes/{{note.id}}">{{note.title}}</a></li>
+</ul>
+<hr/>
+<a href="#/users/" class="btn btn-default">Back to Users</a>
