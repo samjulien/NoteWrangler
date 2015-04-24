@@ -1,6 +1,9 @@
 angular.module('NoteWrangler').controller('NoteEditController', 
-	function(Note, $scope, $routeParams, $location){
+	function(Note, Category, User, $scope, $routeParams, $location){
 	$scope.note = Note.get({id: $routeParams.id});
+	$scope.categories = Category.query();
+	$scope.users = User.query();
+
 	$scope.isSubmitting = false;
 
 	$scope.saveNote = function(note){

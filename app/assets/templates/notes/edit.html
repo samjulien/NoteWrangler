@@ -4,13 +4,30 @@
 	<label for="title">Title</label>
 	<input class="form-control" type="text" id="title" name="title" ng-model="note.title" />
 	</fieldset>
+
+	<fieldset class="form-group">
+	<label for="category">Category</label>
+	<select ng-options="category.id as category.name for category in categories"
+			ng-model="note.CategoryId"
+			class="form-control"></select>
+	</fieldset>
+
+	<fieldset class="form-group">
+	<label for="user">User</label>
+	<select ng-options="user.id as user.name for user in users"
+			ng-model="note.UserId"
+			class="form-control"></select>
+	</fieldset>
+
 	<fieldset class="form-group">
 	<label for="description">Description</label>
 	<input class="form-control" type="text" id="description" name="description" ng-model="note.description" />
 	</fieldset>
+
 	<fieldset class="form-group">
 	<label for="content">Content</label>
 	<textarea class="form-control" id="content" name="content" ng-model="note.content" />
 	</fieldset>
+
 	<input type="submit" value="{{isSubmitting ? 'Saving...' : 'Save'}}" class="btn btn-default" ng-click="saveNote(note)" ng-disabled="isSubmitting" />
 </form>

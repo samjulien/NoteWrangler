@@ -2,7 +2,7 @@ var models = require('../models');
 var Note = models.Note;
 var User = models.User;
 var Category = models.Category;
-var noteSafeParams = ["id", "link","description","title","icon","content", "userId", 'CategoryId'];
+var noteSafeParams = ["id", "link","description","title","icon","content", "UserId", 'CategoryId'];
 var userSafeParams = ['id', 'name', 'username', 'bio', 'twitter_handle', 'site'];
 
 module.exports = function(app) {
@@ -16,7 +16,11 @@ module.exports = function(app) {
   
   app.post('/notes', function(req, res) {
     models.sequelize.sync().on('success', function() {
-      Note.create({title: req.param('title'), content: req.param('content'), description: req.param('description')}).success(function(notes) {
+      Note.create({title: req.param('title'), 
+                content: req.param('content'), 
+                description: req.param('description'),
+                UserId: req.param('UserId'),
+                CategoryId: req.param('CategoryId')}).success(function(notes) {
         res.json(notes);
       })
     });
